@@ -54,6 +54,7 @@ const Home = () => {
           </a>
         </div>
         <Skills />
+        <h1 className='text-4xl font-bold text-center mt-20 mb-10'>Projects</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
       {projects.map((project, i) => (
         <div
